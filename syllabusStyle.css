@@ -1,0 +1,20 @@
+html {
+    background-color: #444444;
+}
+#syllabus {
+    margin: 35px auto none auto;
+    margin-top: 50px;
+    align: center;
+    min-width: 612px;
+    min-height: 792px;
+    box-shadow: 3px 9px 12px 5px #000000;
+    background-color: white;
+    padding: 12.5%;
+    outline: solid 3px #00205b;
+    outline-offset: -40px;
+
+}
+#logo {
+    display: inline-block;
+    text-align: center;
+}
