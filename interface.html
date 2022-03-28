@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>GSW SyllaJen Interface</title>
+  <link rel="stylesheet" href="master.css">
+  <script defer src="indexScript.js"></script>
+</head>
+<body>
+    <div id="interface">
+        <div id="panel">
+            <input type="text" id="uiCombo" class="iPanel" list="uiOptions">
+                <datalist id="uiOptions">
+                    <option id="Assignments">Assignments</option>
+                    <option id="Quizzes">Quizzes</option>
+                    <option id="Tests">Tests</option>
+                    <option id="Labs">Labs</option>
+                </datalist>
+            <input type="button" id="btnSubmit" class="iBtn iPanel" value="&#x2714;">
+            <input type="button" id="btnMoveUp" class="iBtn iPanel" value="&#9650;">
+            <input type="button" id="btnMoveDown" class="iBtn iPanel" value="&#9660;" >
+            <input type="button" id="btnRemove" class="iBtn iPan" value="&#128473">
+        </div>
+        <div id="uInput">
+            <input type="textarea" id="iField">
+        </div>
+    </div>
+</body>
+</html>
